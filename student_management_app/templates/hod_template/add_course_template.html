@@ -20,7 +20,6 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    {% autoescape off %}
                     <form role="form" method="POST" action="{% url 'add_course_save' %}">
                         {% csrf_token %}
 
@@ -65,7 +64,6 @@
                         </div>
                     </form>
                     </div>
-                    {% endautoescape %}
                     <!-- /.card -->
 
                 </div>
