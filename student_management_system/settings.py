@@ -58,7 +58,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'student_management_system.urls'
 
-# Using templats to disabling autoescape globally
+# Using templates to disabling autoescape globally
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
