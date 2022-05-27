@@ -87,18 +87,11 @@ $  cd
 **4. Install Requirements from 'requirements.txt'**
 ```python
 $  pip3 install -r requirements.txt
+$  pip3 install python-dotenv
+$  pip3 install django
+$  pip3 install django-field-history
+$  pip3 install django-sslserver
 ```
-
-pip3 install python-dotenv
-pip3 install django
-pip3 install django-field-history
-pip3 install django-sslserver
-
-python3 manage.py migrate
-
-python3 manage.py runsslserver
-
-Stop: $  deactivate
 
 **5. Add the hosts**
 
@@ -107,22 +100,25 @@ Stop: $  deactivate
 ```python
 ALLOWED_HOSTS = ['*']
 ```
-*No need to change on Mac.*
 
-
-**6. Now Run Server**
-
-Command for PC:
-```python
-$ python manage.py runserver
+**6. Migrations**
+```
+python3 manage.py migrate
 ```
 
-Command for Linux:
+**7. Now Run SSL Server**
+
 ```python
 $ python3 manage.py runsslserver
 ```
 
-**7. Login Credentials**
+**8. Stop Run SSL Server**
+
+```python
+$  deactivate
+```
+
+**9. Login Credentials**
 
 Create Super User (HOD)
 ```
@@ -130,7 +126,7 @@ $  python manage.py createsuperuser
 ```
 Then Add Email, Username and Password
 
-**or Use Default Credentials**
+**Default Credentials**
 
 *For HOD /SuperAdmin*
 Email: admin@gmail.com
