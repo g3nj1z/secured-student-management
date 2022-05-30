@@ -4,6 +4,19 @@
 
 ![Authentication System](./media/AuthenticationSystem.PNG)
 
+### User objects
+User objects are the core of the authentication system. Only one class of user exists in Django’s authentication framework, 'superusers' or staff' or 'student' are just user objects with special attributes set, not different classes of user objects.
+
+See examples below for full references;
+- settings.py
+- views.py
+- urls.py
+- models.py
+- LoginCheckMiddleWare.py
+- EmailBackEnd.py
+- admin.py
+
+
 ## Features of this Project
 
 ### A. Admin Users Can
