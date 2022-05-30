@@ -84,11 +84,11 @@ https://django-configurations.readthedocs.io/en/stable/
 See example below for full references;
 - .env
 
-### 9. 
+### 9. Sensitive Data Prevention
 
-![password](./media/.PNG)
+![data](./media/data.PNG)
 
-https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
+https://studygyaan.com/django/how-to-protect-sensitive-data-in-django
 
 See example below for full references;
 - settings.py
