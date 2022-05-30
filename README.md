@@ -67,11 +67,14 @@ pip3 install django
 pip3 install python-dotenv
 pip3 install django-field-history
 pip3 install django-sslserver
-pip3 instal; gunicorn
+pip3 install gunicorn
+pip3 install psycopg2-binary
 ```
 
 # Deploy on Heroku
 # see https://realpython.com/django-hosting-on-heroku/
+# adding procfile and runtime.txt
+# https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
 ```
 heroku create secured-student-management
 cd secured-student-management
@@ -81,6 +84,7 @@ heroku config:set DISABLE_COLLECTSTATIC=1
 git push heroku master
 heroku config:unset PYTHONHOME -a secured-student-management
 heroku config:unset PYTHONPATH -a secured-student-management
+heroku run python3 manage.py migrate
 heroku run python3 manage.py runsslserver
 ```
 
