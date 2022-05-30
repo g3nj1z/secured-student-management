@@ -23,6 +23,15 @@ See examples below for full references;
 
 #### https://www.stackhawk.com/blog/django-csrf-protection-guide/  
 
+See example below for full references;
+- settings.py
+
+### 3. XSS Protection using Secure Browser XSS Filter
+
+![XSS Protection](./media/XSSProtection.PNG)
+
+#### https://www.stackhawk.com/blog/django-xss-examples-prevention/  
+
 See examples below for full references;
 - settings.py
 
