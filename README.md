@@ -82,7 +82,7 @@ See example below for full references;
 https://django-configurations.readthedocs.io/en/stable/
 
 See example below for full references;
-- settings.py
+- .env
 
 ### 9. 
 
