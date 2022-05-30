@@ -71,6 +71,7 @@ pip3 install gunicorn
 pip3 install psycopg2
 ```
 
+# In Progress
 # Deploy on Heroku
 # see https://realpython.com/django-hosting-on-heroku/
 # adding procfile and runtime.txt

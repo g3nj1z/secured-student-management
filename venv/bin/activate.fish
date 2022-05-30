@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/kali/Documents/secure-student-management-system/venv"
+set -gx VIRTUAL_ENV "/home/kali/Documents/UNIKL/SSD/secured-student-management/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
