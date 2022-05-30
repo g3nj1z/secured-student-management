@@ -17,6 +17,14 @@ See examples below for full references;
 - EmailBackEnd.py
 - admin.py
 
+### 2. CSRF Protection
+
+![CSRF Protection](./media/CSRFProtection.PNG)
+
+#### https://www.stackhawk.com/blog/django-csrf-protection-guide/  
+
+See examples below for full references;
+- 
 
 ## Features of this Project
 
