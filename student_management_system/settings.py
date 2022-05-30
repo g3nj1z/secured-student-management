@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'sslserver',
 
     'psycopg2'
-    'django-heroku'
+    'gunicorn'
 ]
 
 MIDDLEWARE = [
@@ -144,9 +144,3 @@ AUTH_USER_MODEL = "student_management_app.CustomUser"
 # Registering Custom Backend "EmailBackEnd"
 AUTHENTICATION_BACKENDS = ['student_management_app.EmailBackEnd.EmailBackEnd']
 
-# Import Django Heroku Settings
-# see https://realpython.com/django-hosting-on-heroku/
-# heroku config:set SECRET_KEY='(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
-# heroku config:set DISABLE_COLLECTSTATIC=1
-# git push heroku master
-django_heroku.settings(locals())

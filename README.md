@@ -67,15 +67,20 @@ pip3 install django
 pip3 install python-dotenv
 pip3 install django-field-history
 pip3 install django-sslserver
+```
 
-
+# see https://realpython.com/django-hosting-on-heroku/
+```
 heroku create secured-student-management
 cd secured-student-management
 heroku git:remote --app secured-student-management
 python -m pip install django-heroku
+heroku config:set SECRET_KEY='(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
+heroku config:set DISABLE_COLLECTSTATIC=1
+git push heroku master
 
-heroku run pip3 install psycopg2
-heroku run pip3 install django-heroku
+pip3 install psycopg2
+pip3 install gunicorn
 ```
 
 **5. Add the hosts**
