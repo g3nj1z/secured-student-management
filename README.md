@@ -68,7 +68,7 @@ pip3 install python-dotenv
 pip3 install django-field-history
 pip3 install django-sslserver
 pip3 install gunicorn
-pip3 install psycopg2-binary
+pip3 install psycopg2
 ```
 
 # Deploy on Heroku

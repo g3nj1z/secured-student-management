@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'field_history',
     'sslserver',
     'gunicorn',
-    'psycopg2-binary',
+    'psycopg2',
 ]
 
 MIDDLEWARE = [
