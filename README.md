@@ -1,5 +1,6 @@
 # (Secured) Django Student Management
 
+## Authentication System
 ![Authentication System](./media/AuthenticationSystem.PNG) 
 
 ## Features of this Project
