@@ -24,7 +24,7 @@ See examples below for full references;
 #### https://www.stackhawk.com/blog/django-csrf-protection-guide/  
 
 See examples below for full references;
-- 
+- settings.py
 
 ## Features of this Project
 
