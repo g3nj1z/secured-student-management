@@ -89,11 +89,11 @@ pip3 install gunicorn
 pip3 install psycopg2
 ```
 
-# In Progress
-# Deploy on Heroku
-# see https://realpython.com/django-hosting-on-heroku/
-# adding procfile and runtime.txt
-# see https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
+### In Progress
+#### Deploy on Heroku
+#### see https://realpython.com/django-hosting-on-heroku/
+#### adding procfile and runtime.txt
+#### see https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
 ```
 heroku create secured-student-management
 cd secured-student-management
