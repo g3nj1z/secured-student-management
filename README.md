@@ -4,22 +4,39 @@
 
 ### Admin Users Can
 1. See Overall Summary Charts of Stuudents Performance, Staffs Perfomrances, Courses, Subjects, Leave, etc.
+
 ![home](./media/home.PNG)
+
 2. Manage Staffs (Add, Update and Delete)
+
 ![managestaff](./media/managestaff.PNG)
+
 3. Manage Students (Add, Update and Delete)
+
 ![managestudents](./media/managestudents.PNG)
+
 4. Manage Course (Add, Update and Delete)
+
 ![managecourse](./media/managecourse.PNG)
+
 5. Manage Subjects (Add, Update and Delete)
+
 ![managesubjects](./media/managesubjects.PNG)
+
 6. Manage Sessions (Add, Update and Delete)
+
 ![managesessions](./media/managesessions.PNG)
+
 7. View Student Attendance
+
 ![attendance](./media/attendance.PNG)
+
 8. Review and Reply Student/Staff Feedback
+
 ![feedback](./media/feedback.PNG)
+
 9. Review (Approve/Reject) Student/Staff Leave
+
 ![leave](./media/leave.PNG)
 
 ## Security features for this Project
