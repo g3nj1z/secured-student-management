@@ -1,10 +1,12 @@
 # (Secured) Django Student Management
 
-<center> <h2>Authentication System</h2> </center>
+## Security features of this Project
+
+### 1. Authentication System
 
 ![Authentication System](./media/AuthenticationSystem.PNG)
 
-### https://docs.djangoproject.com/en/4.0/topics/auth/default/
+#### https://docs.djangoproject.com/en/4.0/topics/auth/default/
 
 See examples below for full references;
 - settings.py
