@@ -29,18 +29,6 @@
 
 ## How to Install and Run this project?
 
-### Pre-Requisites:
-1. Install Git Version Control
-[ https://git-scm.com/ ]
-
-2. Install Python Latest Version
-[ https://www.python.org/downloads/ ]
-
-3. Install Pip (Package Manager)
-[ https://pip.pypa.io/en/stable/installing/ ]
-
-*Alternative to Pip is Homebrew*
-
 ### Installation
 **1. Create a Folder where you want to save the project**
 
@@ -48,35 +36,23 @@
 
 Install Virtual Environment First
 ```
-$  pip install virtualenv
+apt install python3.10-venv
+pip3 install virtualenv
 ```
 
 Create Virtual Environment
-
-For Windows
-```
-$  python -m venv venv
-```
-For Mac
-```
-$  python3 -m venv venv
+`
+python3 -m venv venv
 ```
 
 Activate Virtual Environment
-
-For Windows
 ```
-$  source venv/scripts/activate
-```
-
-For Mac
-```
-$  source venv/bin/activate
+source venv/bin/activate
 ```
 
 **3. Clone this project**
 ```
-$  git clone 
+git clone https://github.com/g3nj1z/secured-student-management-system.git
 ```
 
 Then, Enter the project
@@ -84,13 +60,13 @@ Then, Enter the project
 $  cd 
 ```
 
-**4. Install Requirements from 'requirements.txt'**
+**4. Install Requirements from 'requirements.txt' and other 'dependencies'.**
 ```python
-$  pip3 install -r requirements.txt
-$  pip3 install python-dotenv
-$  pip3 install django
-$  pip3 install django-field-history
-$  pip3 install django-sslserver
+pip3 install -r requirements.txt
+pip3 install python-dotenv
+pip3 install django
+pip3 install django-field-history
+pip3 install django-sslserver
 ```
 
 **5. Add the hosts**
@@ -109,20 +85,20 @@ python3 manage.py migrate
 **7. Now Run SSL Server**
 
 ```python
-$ python3 manage.py runsslserver
+python3 manage.py runsslserver
 ```
 
 **8. Stop Run SSL Server**
 
 ```python
-$  deactivate
+deactivate
 ```
 
 **9. Login Credentials**
 
 Create Super User (HOD)
 ```
-$  python manage.py createsuperuser
+python manage.py createsuperuser
 ```
 Then Add Email, Username and Password
 
@@ -139,5 +115,3 @@ Password: staff
 *For Student*
 Email: student@gmail.com
 Password: student
-
-
