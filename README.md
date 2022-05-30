@@ -89,26 +89,6 @@ pip3 install gunicorn
 pip3 install psycopg2
 ```
 
-### In Progress
-#### Deploy on Heroku
-#### see https://realpython.com/django-hosting-on-heroku/
-#### adding procfile and runtime.txt
-#### see https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
-```
-heroku create secured-student-management
-cd secured-student-management
-heroku git:remote --app secured-student-management
-heroku config:set SECRET_KEY='(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
-heroku config:set DISABLE_COLLECTSTATIC=1
-heroku buildpacks:clear
-heroku buildpacks:add heroku/python
-git push heroku master
-heroku config:unset PYTHONHOME -a secured-student-management
-heroku config:unset PYTHONPATH -a secured-student-management
-heroku run python3 manage.py migrate
-heroku run python3 manage.py runsslserver
-```
-
 **5. Add the hosts**
 
 - Got to settings.py file 
@@ -155,3 +135,23 @@ Password: staff
 *For Student*
 Email: student@gmail.com
 Password: student
+
+### In Progress
+#### Deploy on Heroku
+#### see https://realpython.com/django-hosting-on-heroku/
+#### adding procfile and runtime.txt
+#### see https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
+```
+heroku create secured-student-management
+cd secured-student-management
+heroku git:remote --app secured-student-management
+heroku config:set SECRET_KEY='(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
+heroku config:set DISABLE_COLLECTSTATIC=1
+heroku buildpacks:clear
+heroku buildpacks:add heroku/python
+git push heroku master
+heroku config:unset PYTHONHOME -a secured-student-management
+heroku config:unset PYTHONPATH -a secured-student-management
+heroku run python3 manage.py migrate
+heroku run python3 manage.py runsslserver
+```
