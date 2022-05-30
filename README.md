@@ -50,10 +50,19 @@ See example below for full references;
 
 https://www.digitalocean.com/community/tutorials/how-to-harden-your-production-django-project
 
-See example below for full references;
+See examples below for full references;
 - manage.py
 - wsgi.py
 - .env
+- settings.py
+
+### 6. Force HTTPS to stop information exchange
+
+![escape](./media/escape.PNG)
+
+https://www.securecoding.com/blog/guard-django-application-against-cross-site-scripting/ https://stackoverflow.com/questions/70785267/does-django-httpresponseredirect-suffer-from-xss-attack  
+
+See example below for full references;
 - settings.py
 
 ## Features of this Project
