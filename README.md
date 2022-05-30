@@ -17,7 +17,7 @@ See examples below for full references;
 - EmailBackEnd.py
 - admin.py
 
-### 2. CSRF Protection
+### 2. CSRF Protection using Middleware
 
 ![CSRF Protection](./media/CSRFProtection.PNG)
 
