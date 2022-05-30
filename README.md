@@ -41,7 +41,7 @@ pip3 install virtualenv
 ```
 
 Create Virtual Environment
-`
+```
 python3 -m venv venv
 ```
 
