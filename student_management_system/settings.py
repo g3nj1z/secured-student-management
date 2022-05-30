@@ -13,7 +13,7 @@ SECRET_KEY = '(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
 # Django Casting Data 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*',]
+ALLOWED_HOSTS = ['*','secured-student-management.herokuapp.com']
 
 # Secure SSL Redirect
 SECURE_SSL_REDIRECT = True

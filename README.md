@@ -74,7 +74,7 @@ pip3 install psycopg2
 # Deploy on Heroku
 # see https://realpython.com/django-hosting-on-heroku/
 # adding procfile and runtime.txt
-# https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
+# see https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
 ```
 heroku create secured-student-management
 cd secured-student-management
