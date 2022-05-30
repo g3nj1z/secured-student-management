@@ -84,20 +84,22 @@ https://django-configurations.readthedocs.io/en/stable/
 See example below for full references;
 - .env
 
-### 9. Sensitive Data Prevention
+### 9. Sensitive Data Prevention using Casting Data & Cryptography
 
 ![data](./media/data.PNG)
 
 https://studygyaan.com/django/how-to-protect-sensitive-data-in-django
+https://django-cryptography.readthedocs.io/en/latest/
+https://www.securecoding.com/blog/cryptography-for-security-in-django-app/
 
 See example below for full references;
 - settings.py
 
-### 10. 
+### 10. Auditing and Logging
 
-![password](./media/.PNG)
+![audit](./media/audit.PNG)
 
-https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
+https://pypi.org/project/django-field-history/ s
 
 See example below for full references;
 - settings.py
