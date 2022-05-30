@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'sslserver',
 ]
 
+# CSRF Protection using Middleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
