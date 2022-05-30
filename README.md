@@ -56,12 +56,21 @@ See examples below for full references;
 - .env
 - settings.py
 
-### 6. Prevent XSS by escaping content
+### 6. Prevent XSS by avoid disabling autoescape globally
 
 ![escape](./media/escape.PNG)
 
 https://www.securecoding.com/blog/guard-django-application-against-cross-site-scripting/ 
 https://stackoverflow.com/questions/70785267/does-django-httpresponseredirect-suffer-from-xss-attack  
+
+See example below for full references;
+- settings.py
+
+### 7. Protecting Password Validation
+
+![password](./media/passsword.PNG)
+
+https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
 See example below for full references;
 - settings.py
