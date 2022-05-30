@@ -35,6 +35,15 @@ See example below for full references;
 See examples below for full references;
 - settings.py
 
+### 4. Force HTTPS to stop information exchange
+
+![HTTPS](./media/HTTPS.PNG)
+
+https://stackoverflow.com/questions/49112365/django-redirecting-http-https  
+
+See examples below for full references;
+- settings.py
+
 ## Features of this Project
 
 ### A. Admin Users Can
