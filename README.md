@@ -1,5 +1,27 @@
 # (Secured) Django Student Management
 
+## Features of this Project
+
+### Admin Users Can
+1. See Overall Summary Charts of Stuudents Performance, Staffs Perfomrances, Courses, Subjects, Leave, etc.
+![home](./media/home.PNG)
+2. Manage Staffs (Add, Update and Delete)
+![managestaff](./media/managestaff.PNG)
+3. Manage Students (Add, Update and Delete)
+![managestudents](./media/managestudents.PNG)
+4. Manage Course (Add, Update and Delete)
+![managecourse](./media/managecourse.PNG)
+5. Manage Subjects (Add, Update and Delete)
+![managesubjects](./media/managesubjects.PNG)
+6. Manage Sessions (Add, Update and Delete)
+![managesessions](./media/managesessions.PNG)
+7. View Student Attendance
+![attendance](./media/attendance.PNG)
+8. Review and Reply Student/Staff Feedback
+![feedback](./media/feedback.PNG)
+9. Review (Approve/Reject) Student/Staff Leave
+![leave](./media/leave.PNG)
+
 ## Security features for this Project
 
 ### 1. Authentication System
@@ -222,10 +244,28 @@ Password: staff
 Email: student@gmail.com
 Password: student
 
-### In Progress
-#### Deploy on Heroku
+## In Progress
+
+### Add staff & student
+
+#### Staff Can
+1. See the Overall Summary Charts related to their students, their subjects, leave status, etc.
+2. Take/Update Students Attendance
+3. Add/Update Result
+4. Apply for Leave
+5. Send Feedback to HOD
+
+#### Students Can
+1. See the Overall Summary Charts related to their attendance, their subjects, leave status, etc.
+2. View Attendance
+3. View Result
+4. Apply for Leave
+5. Send Feedback to HOD
+
+### Deploy on Heroku
 #### see https://realpython.com/django-hosting-on-heroku/
-#### adding procfile and runtime.txt
+
+### adding procfile and runtime.txt
 #### see https://stackoverflow.com/questions/69605603/what-should-go-in-my-procfile-for-a-django-application
 ```
 heroku create secured-student-management
