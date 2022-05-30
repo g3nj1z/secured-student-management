@@ -63,8 +63,8 @@ $  cd
 **4. Install Requirements from 'requirements.txt' and other 'dependencies'.**
 ```python
 pip3 install -r requirements.txt
-pip3 install python-dotenv
 pip3 install django
+pip3 install python-dotenv
 pip3 install django-field-history
 pip3 install django-sslserver
 ```
