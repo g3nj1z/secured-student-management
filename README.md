@@ -1,4 +1,4 @@
-# (Secured) Django Student Management System
+# (Secured) Django Student Management
 
 ## Features of this Project
 
@@ -67,6 +67,9 @@ pip3 install django
 pip3 install python-dotenv
 pip3 install django-field-history
 pip3 install django-sslserver
+
+heroku run pip3 install psycopg2
+heroku run pip3 install django-heroku
 ```
 
 **5. Add the hosts**

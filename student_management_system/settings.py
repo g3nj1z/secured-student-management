@@ -1,6 +1,5 @@
 import os
 import sys
-import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -42,6 +41,9 @@ INSTALLED_APPS = [
 
     'field_history',
     'sslserver',
+
+    'psycopg2'
+    'django-heroku'
 ]
 
 MIDDLEWARE = [
@@ -143,4 +145,7 @@ AUTH_USER_MODEL = "student_management_app.CustomUser"
 AUTHENTICATION_BACKENDS = ['student_management_app.EmailBackEnd.EmailBackEnd']
 
 # Import Django Heroku Settings
+# see https://realpython.com/django-hosting-on-heroku/
+# heroku config:set DISABLE_COLLECTSTATIC=1
+# git push heroku master
 django_heroku.settings(locals())
