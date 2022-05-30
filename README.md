@@ -1,6 +1,6 @@
 # (Secured) Django Student Management
 
-## Security features of this Project
+## Security features for this Project
 
 ### 1. Authentication System
 
