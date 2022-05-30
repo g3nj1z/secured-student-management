@@ -56,11 +56,12 @@ See examples below for full references;
 - .env
 - settings.py
 
-### 6. Force HTTPS to stop information exchange
+### 6. Prevent XSS by escaping content
 
 ![escape](./media/escape.PNG)
 
-https://www.securecoding.com/blog/guard-django-application-against-cross-site-scripting/ https://stackoverflow.com/questions/70785267/does-django-httpresponseredirect-suffer-from-xss-attack  
+https://www.securecoding.com/blog/guard-django-application-against-cross-site-scripting/ 
+https://stackoverflow.com/questions/70785267/does-django-httpresponseredirect-suffer-from-xss-attack  
 
 See example below for full references;
 - settings.py
