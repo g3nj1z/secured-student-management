@@ -35,7 +35,7 @@ See example below for full references;
 See example below for full references;
 - settings.py
 
-### 4. Force HTTPS to stop information exchange
+### 4. Force HTTPS to stop information exchange using Secure SSL Redirect
 
 ![HTTPS](./media/HTTPS.PNG)
 
