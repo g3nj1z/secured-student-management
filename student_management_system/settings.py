@@ -39,6 +39,7 @@ INSTALLED_APPS = [
 
     'student_management_app',
 
+    'python-dotenv',
     'field_history',
     'sslserver',
 ]

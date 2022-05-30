@@ -32,7 +32,7 @@ See example below for full references;
 
 #### https://www.stackhawk.com/blog/django-xss-examples-prevention/  
 
-See examples below for full references;
+See example below for full references;
 - settings.py
 
 ### 4. Force HTTPS to stop information exchange
@@ -41,7 +41,19 @@ See examples below for full references;
 
 https://stackoverflow.com/questions/49112365/django-redirecting-http-https  
 
-See examples below for full references;
+See example below for full references;
+- settings.py
+
+### 5. Hardening Django Production
+
+![harden](./media/harden.PNG)
+
+https://www.digitalocean.com/community/tutorials/how-to-harden-your-production-django-project
+
+See example below for full references;
+- manage.py
+- wsgi.py
+- .env
 - settings.py
 
 ## Features of this Project
