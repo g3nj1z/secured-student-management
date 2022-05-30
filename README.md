@@ -68,7 +68,7 @@ See example below for full references;
 
 ### 7. Protecting Password Validation
 
-![password](./media/passsword.PNG)
+![password](./media/password.PNG)
 
 https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
