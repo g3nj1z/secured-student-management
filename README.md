@@ -81,6 +81,8 @@ cd secured-student-management
 heroku git:remote --app secured-student-management
 heroku config:set SECRET_KEY='(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
 heroku config:set DISABLE_COLLECTSTATIC=1
+heroku buildpacks:clear
+heroku buildpacks:add heroku/python
 git push heroku master
 heroku config:unset PYTHONHOME -a secured-student-management
 heroku config:unset PYTHONPATH -a secured-student-management
