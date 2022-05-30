@@ -1,4 +1,4 @@
-# Django Student Management System (secured)
+# (Secured) Django Student Management System
 
 ## Features of this Project
 
