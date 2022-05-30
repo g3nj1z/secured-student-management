@@ -99,7 +99,7 @@ See example below for full references;
 
 ![audit](./media/audit.PNG)
 
-https://pypi.org/project/django-field-history/ s
+https://pypi.org/project/django-field-history/
 
 See example below for full references;
 - settings.py
