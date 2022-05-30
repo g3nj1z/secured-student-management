@@ -1,6 +1,6 @@
 # (Secured) Django Student Management
 
-<center> <h3>Authentication System</h2> </center>
+<center> <h2>Authentication System</h2> </center>
 
 ![Authentication System](./media/AuthenticationSystem.PNG)
 
