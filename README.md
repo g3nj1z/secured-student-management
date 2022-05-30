@@ -2,7 +2,7 @@
 
 ## Features of this Project
 
-### Admin Users Can
+### Admin/HOD Users Can
 1. See Overall Summary Charts of Stuudents Performance, Staffs Perfomrances, Courses, Subjects, Leave, etc.
 
 ![home](./media/home.PNG)
