@@ -75,6 +75,33 @@ https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 See example below for full references;
 - settings.py
 
+### 8. Configuration Management
+
+![conf](./media/conf.PNG)
+
+https://django-configurations.readthedocs.io/en/stable/
+
+See example below for full references;
+- settings.py
+
+### 9. 
+
+![password](./media/.PNG)
+
+https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
+
+See example below for full references;
+- settings.py
+
+### 10. 
+
+![password](./media/.PNG)
+
+https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
+
+See example below for full references;
+- settings.py
+
 ## Features of this Project
 
 ### A. Admin Users Can
