@@ -29,7 +29,7 @@
 
 7. View Student Attendance
 
-![viewattendance](./media/viewattendance.PNG)
+![wattendance](./media/attendance.PNG)
 
 8. Review and Reply Student/Staff Feedback
 
