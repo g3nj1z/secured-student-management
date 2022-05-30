@@ -68,6 +68,12 @@ pip3 install python-dotenv
 pip3 install django-field-history
 pip3 install django-sslserver
 
+
+heroku create secured-student-management
+cd secured-student-management
+heroku git:remote --app secured-student-management
+python -m pip install django-heroku
+
 heroku run pip3 install psycopg2
 heroku run pip3 install django-heroku
 ```
